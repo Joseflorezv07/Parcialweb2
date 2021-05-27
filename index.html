@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <header>
+        <div class="Navbar">
+          <a class="Navbarimage">
+          <img src="./images/logo.svg" class="shortly">
+          </a>
+          <nav class="navbar-links">
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+          <a href="">Resources</a>
+          <button type="button" class="btn-navbar">Login</button>
+          <button type="button" class="btn-signup">Sign Up</button>
+          </nav>
+        </div>
+      </header>
+      <div class="firstcontainer">
+      <div class="firstbody">
+        <h1 class="title">More than just shorter links</h1>
+        <p class="text">
+          Build your brand’s recognition and get detailed insights on how your links are performing.
+        </p>
+      <button class="btn-primary btn">Get Started</button>
+      </div>
+
+      <div class="img-wrapper">
+        <img src="./images/illustration-working.svg" alt="" role="presentation" />
+      </div>
+
+      <form class="shorten-url-form">
+        <input type="url" placeholder="Shorten a link here&hellip;" required />
+        <button type="submit" class="btn btn-primary">Shorten It!</button>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>

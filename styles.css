@@ -1,0 +1,133 @@
+header
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+header .navbar-links {
+    position: absolute;
+    background-color:transparent;
+    margin-left:180px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 24px 40px;
+    border-radius: 9px;
+  }
+  header .navbar-links a {
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    margin-right: 0;
+    margin-top: -75px;
+    font-size: 18px;
+    color: gray;
+  }
+
+  header .navbar-links a:active {
+    color: black;
+  }
+
+  .btn-navbar{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -80px;
+    margin-left: 600px;
+    background-color:transparent;
+    color: gray;
+  }
+
+  .btn-signup
+  {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    border: none;   
+    margin-top: -80px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    size: 1px;
+    padding: 5px 18px;
+    background-color:hsl(180, 66%, 49%);
+    color: gray;
+  }
+
+  .firstcontainer {
+    font-family: 'Poppins', sans-serif;
+    grid-column: 1/4;
+  
+    display: grid;
+    grid-template-columns: inherit;
+  
+    overflow: hidden;
+  }
+  
+  .firstcontainer .img-wrapper {
+    font-family: 'Poppins', sans-serif;
+    grid-column: 2/4;
+    justify-self: end;
+    grid-row: 1;
+  }
+  
+  .firstcontainer .firstbody {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 45px;
+    grid-column: 2/3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    max-width: 60%;
+  }
+  
+  
+  .firstcontainer .firstbody .btn {
+    padding: 19px 40px;
+    font-family: 'Poppins', sans-serif;
+
+    
+  }
+  
+  .firstcontainer .title {
+    font-size: 75px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .firstcontainer .text {
+    color: hsl(257, 7%, 63%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    max-width: 74%;
+  }
+  
+  .firstcontainer .shorten-url-form {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(257, 27%, 26%) url(../images/bg-shorten-desktop.svg) no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    align-items: center;
+    grid-row: 2;
+    grid-column: 2/3;
+    display: flex;
+    margin-top: 67px;
+    padding: 50px;
+  }
+  
+  .firstcontainer .shorten-url-form input {
+    font-family: 'Poppins', sans-serif;
+    flex: 1;
+    font-size: 20px;
+    padding: 17px 32px;
+    border-radius: 4px;
+    margin-right: 25px;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .firstcontainer .shorten-url-form .btn {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 9px;
+  }
