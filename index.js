@@ -1,8 +1,7 @@
 
 const scene = new THREE.Scene();
-scene.fog = new THREE.Fog(0xffffff, 10, 140);
 
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 2, 10000);
 camera.position.z = 5;
 
 const renderer = new THREE.WebGLRenderer();
@@ -49,8 +48,8 @@ stats.domElement.style.top = "10px";
 document.getElementById("myStats").appendChild(stats.domElement);
 
 
-const light = new THREE.AmbientLight( 0xffffff, 1 );
-light.position.set( 80, 100, 100 );
+const light = new THREE.AmbientLight( 0xffffff,1 );
+light.position.set( 1, 50, 20 );
 scene.add( light );
 
 controls = new THREE.OrbitControls(camera, renderer.domElement);
